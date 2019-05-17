@@ -35,5 +35,5 @@ for file in inputs:
                 prev_row = curr_row
             
             prev_id = curr_id
-
+        fout.write("\t".join(prev_row))
     fin.close()
